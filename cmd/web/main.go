@@ -12,6 +12,7 @@ type application struct {
 	infoLog *log.Logger
 }
 
+// testing
 func main() {
 	addr := flag.String("addr", ":4000", "Http network address")
 	flag.Parse()
